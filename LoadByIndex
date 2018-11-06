@@ -1,0 +1,8 @@
+
+using UnityEngine.SceneManagement; //imports
+    
+    public void LoadByIndex(int SceneIndex)
+    {
+        SceneManager.LoadScene(SceneIndex); //open scene based on the value passed into it
+    }
+    
